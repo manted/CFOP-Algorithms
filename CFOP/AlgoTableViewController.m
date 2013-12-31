@@ -8,6 +8,7 @@
 
 #import "AlgoTableViewController.h"
 #import "Algorithm.h"
+#import "AlgoDetailViewController.h"
 @interface AlgoTableViewController ()
 
 @end
@@ -79,6 +80,7 @@
     
     NSString *imgName = [self getImageNameOfRow:indexPath.row + 1];
     [cell.imageView setImage:[UIImage imageNamed:imgName]];
+    [cell.textLabel setNumberOfLines:2];
     [cell.textLabel setText:[_algorithms objectAtIndex:indexPath.row]];
     
     return cell;
@@ -141,7 +143,7 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a story board-based application, you will often want to do a little preparation before navigation
@@ -149,8 +151,17 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([[segue identifier] isEqualToString:@"detail"]){
+        UITableViewCell *cell=(id)sender;
+        AlgoDetailViewController *detailVC = segue.destinationViewController;
+        [detailVC setImage:cell.imageView.image];
+        [detailVC setAlgorithmString:cell.textLabel.text];
+        NSLog(@"%@",cell.textLabel.text);
+        
+    }
+
 }
 
- */
+
 
 @end
