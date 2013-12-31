@@ -1,5 +1,5 @@
 //
-//  Algorithm.h
+//  PLLAlgorithm.h
 //  CFOP
 //
 //  Created by Manted on 31/12/2013.
@@ -8,12 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Algorithm : NSObject
-
-@property (nonatomic, strong) NSArray *f2l;
-@property (nonatomic, strong) NSArray *oll;
+@interface PLLAlgorithm : NSObject
 @property (nonatomic, strong) NSArray *pll;
-
--(id)initAlgorithms;
-
+-(id)init;
 @end

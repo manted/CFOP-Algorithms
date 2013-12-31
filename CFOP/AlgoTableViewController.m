@@ -7,7 +7,9 @@
 //
 
 #import "AlgoTableViewController.h"
-#import "Algorithm.h"
+#import "F2LAlgorithm.h"
+#import "OLLAlgorithm.h"
+#import "PLLAlgorithm.h"
 #import "AlgoDetailViewController.h"
 @interface AlgoTableViewController ()
 
@@ -28,14 +30,19 @@
 {
     [super viewDidLoad];
 //    _algorithms = [NSArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",Nil];
-    Algorithm *algo = [[Algorithm alloc]initAlgorithms];
     NSString *title = [self title];
     if ([title isEqualToString:@"F2L"]) {
+        F2LAlgorithm *algo = [[F2LAlgorithm alloc]init];
         _algorithms = algo.f2l;
         _type = F2L;
     }else if([title isEqualToString:@"OLL"]){
+        OLLAlgorithm *algo = [[OLLAlgorithm alloc]init];
         _algorithms = algo.oll;
         _type = OLL;
+    }else if([title isEqualToString:@"PLL"]){
+        PLLAlgorithm *algo = [[PLLAlgorithm alloc]init];
+        _algorithms = algo.pll;
+        _type = PLL;
     }
 
     
@@ -96,7 +103,7 @@
             name = [NSString stringWithFormat:@"oll%i.gif",index];
             break;
         case PLL:
-            name = [NSString stringWithFormat:@"plll%i.gif",index];
+            name = [NSString stringWithFormat:@"pll%i.gif",index];
             break;
         default:
             break;
@@ -143,6 +150,9 @@
 }
 */
 
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 70;
+}
 
 #pragma mark - Navigation
 
@@ -156,8 +166,6 @@
         AlgoDetailViewController *detailVC = segue.destinationViewController;
         [detailVC setImage:cell.imageView.image];
         [detailVC setAlgorithmString:cell.textLabel.text];
-        NSLog(@"%@",cell.textLabel.text);
-        
     }
 
 }

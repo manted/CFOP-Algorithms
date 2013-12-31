@@ -140,8 +140,10 @@
 		F76D46451872D5E90094A452 /* pll19.gif in Resources */ = {isa = PBXBuildFile; fileRef = F76D46301872D5E90094A452 /* pll19.gif */; };
 		F76D46461872D5E90094A452 /* pll20.gif in Resources */ = {isa = PBXBuildFile; fileRef = F76D46311872D5E90094A452 /* pll20.gif */; };
 		F76D46471872D5E90094A452 /* pll21.gif in Resources */ = {isa = PBXBuildFile; fileRef = F76D46321872D5E90094A452 /* pll21.gif */; };
-		F76D464A1872F1B80094A452 /* Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D46491872F1B80094A452 /* Algorithm.m */; };
 		F78E53461873006B00ED1BED /* AlgoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78E53451873006B00ED1BED /* AlgoDetailViewController.m */; };
+		F78E534918730E7500ED1BED /* F2LAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = F78E534818730E7500ED1BED /* F2LAlgorithm.m */; };
+		F78E534C18730E8400ED1BED /* OLLAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = F78E534B18730E8400ED1BED /* OLLAlgorithm.m */; };
+		F78E534F18730E8F00ED1BED /* PLLAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = F78E534E18730E8F00ED1BED /* PLLAlgorithm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -293,10 +295,14 @@
 		F76D46301872D5E90094A452 /* pll19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pll19.gif; sourceTree = "<group>"; };
 		F76D46311872D5E90094A452 /* pll20.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pll20.gif; sourceTree = "<group>"; };
 		F76D46321872D5E90094A452 /* pll21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pll21.gif; sourceTree = "<group>"; };
-		F76D46481872F1B80094A452 /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
-		F76D46491872F1B80094A452 /* Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Algorithm.m; sourceTree = "<group>"; };
 		F78E53441873006B00ED1BED /* AlgoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgoDetailViewController.h; sourceTree = "<group>"; };
 		F78E53451873006B00ED1BED /* AlgoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgoDetailViewController.m; sourceTree = "<group>"; };
+		F78E534718730E7500ED1BED /* F2LAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F2LAlgorithm.h; sourceTree = "<group>"; };
+		F78E534818730E7500ED1BED /* F2LAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F2LAlgorithm.m; sourceTree = "<group>"; };
+		F78E534A18730E8400ED1BED /* OLLAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLLAlgorithm.h; sourceTree = "<group>"; };
+		F78E534B18730E8400ED1BED /* OLLAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLLAlgorithm.m; sourceTree = "<group>"; };
+		F78E534D18730E8F00ED1BED /* PLLAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLLAlgorithm.h; sourceTree = "<group>"; };
+		F78E534E18730E8F00ED1BED /* PLLAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLLAlgorithm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -364,10 +370,14 @@
 				F76D45161872D1E40094A452 /* Supporting Files */,
 				F76D45501872D48A0094A452 /* AlgoTableViewController.h */,
 				F76D45511872D48A0094A452 /* AlgoTableViewController.m */,
-				F76D46481872F1B80094A452 /* Algorithm.h */,
-				F76D46491872F1B80094A452 /* Algorithm.m */,
 				F78E53441873006B00ED1BED /* AlgoDetailViewController.h */,
 				F78E53451873006B00ED1BED /* AlgoDetailViewController.m */,
+				F78E534718730E7500ED1BED /* F2LAlgorithm.h */,
+				F78E534818730E7500ED1BED /* F2LAlgorithm.m */,
+				F78E534A18730E8400ED1BED /* OLLAlgorithm.h */,
+				F78E534B18730E8400ED1BED /* OLLAlgorithm.m */,
+				F78E534D18730E8F00ED1BED /* PLLAlgorithm.h */,
+				F78E534E18730E8F00ED1BED /* PLLAlgorithm.m */,
 			);
 			path = CFOP;
 			sourceTree = "<group>";
@@ -767,10 +777,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78E534F18730E8F00ED1BED /* PLLAlgorithm.m in Sources */,
+				F78E534C18730E8400ED1BED /* OLLAlgorithm.m in Sources */,
 				F76D45201872D1E40094A452 /* AppDelegate.m in Sources */,
 				F78E53461873006B00ED1BED /* AlgoDetailViewController.m in Sources */,
 				F76D45521872D48A0094A452 /* AlgoTableViewController.m in Sources */,
-				F76D464A1872F1B80094A452 /* Algorithm.m in Sources */,
+				F78E534918730E7500ED1BED /* F2LAlgorithm.m in Sources */,
 				F76D451C1872D1E40094A452 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
