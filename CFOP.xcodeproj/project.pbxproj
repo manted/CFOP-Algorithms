@@ -14,17 +14,12 @@
 		F76D451C1872D1E40094A452 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D451B1872D1E40094A452 /* main.m */; };
 		F76D45201872D1E40094A452 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D451F1872D1E40094A452 /* AppDelegate.m */; };
 		F76D45231872D1E40094A452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76D45211872D1E40094A452 /* Main.storyboard */; };
-		F76D45261872D1E40094A452 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D45251872D1E40094A452 /* FirstViewController.m */; };
-		F76D45291872D1E40094A452 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D45281872D1E40094A452 /* SecondViewController.m */; };
 		F76D452B1872D1E40094A452 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76D452A1872D1E40094A452 /* Images.xcassets */; };
 		F76D45321872D1E40094A452 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76D45311872D1E40094A452 /* XCTest.framework */; };
 		F76D45331872D1E40094A452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76D450F1872D1E40094A452 /* Foundation.framework */; };
 		F76D45341872D1E40094A452 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76D45131872D1E40094A452 /* UIKit.framework */; };
 		F76D453C1872D1E40094A452 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F76D453A1872D1E40094A452 /* InfoPlist.strings */; };
 		F76D453E1872D1E40094A452 /* CFOPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D453D1872D1E40094A452 /* CFOPTests.m */; };
-		F76D45491872D3900094A452 /* F2LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D45481872D3900094A452 /* F2LViewController.m */; };
-		F76D454C1872D39B0094A452 /* OLLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D454B1872D39B0094A452 /* OLLViewController.m */; };
-		F76D454F1872D4110094A452 /* AlgorithmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D454E1872D4110094A452 /* AlgorithmViewController.m */; };
 		F76D45521872D48A0094A452 /* AlgoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D45511872D48A0094A452 /* AlgoTableViewController.m */; };
 		F76D45831872D5A90094A452 /* f2l1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F76D455A1872D5A90094A452 /* f2l1.gif */; };
 		F76D45841872D5A90094A452 /* f2l2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F76D455B1872D5A90094A452 /* f2l2.gif */; };
@@ -145,6 +140,7 @@
 		F76D46451872D5E90094A452 /* pll19.gif in Resources */ = {isa = PBXBuildFile; fileRef = F76D46301872D5E90094A452 /* pll19.gif */; };
 		F76D46461872D5E90094A452 /* pll20.gif in Resources */ = {isa = PBXBuildFile; fileRef = F76D46311872D5E90094A452 /* pll20.gif */; };
 		F76D46471872D5E90094A452 /* pll21.gif in Resources */ = {isa = PBXBuildFile; fileRef = F76D46321872D5E90094A452 /* pll21.gif */; };
+		F76D464A1872F1B80094A452 /* Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = F76D46491872F1B80094A452 /* Algorithm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,23 +164,12 @@
 		F76D451D1872D1E40094A452 /* CFOP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CFOP-Prefix.pch"; sourceTree = "<group>"; };
 		F76D451E1872D1E40094A452 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F76D451F1872D1E40094A452 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F76D45221872D1E40094A452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F76D45241872D1E40094A452 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		F76D45251872D1E40094A452 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		F76D45271872D1E40094A452 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		F76D45281872D1E40094A452 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F76D452A1872D1E40094A452 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F76D45301872D1E40094A452 /* CFOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76D45311872D1E40094A452 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F76D45391872D1E40094A452 /* CFOPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CFOPTests-Info.plist"; sourceTree = "<group>"; };
 		F76D453B1872D1E40094A452 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F76D453D1872D1E40094A452 /* CFOPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFOPTests.m; sourceTree = "<group>"; };
-		F76D45471872D3900094A452 /* F2LViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F2LViewController.h; sourceTree = "<group>"; };
-		F76D45481872D3900094A452 /* F2LViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F2LViewController.m; sourceTree = "<group>"; };
-		F76D454A1872D39B0094A452 /* OLLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLLViewController.h; sourceTree = "<group>"; };
-		F76D454B1872D39B0094A452 /* OLLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLLViewController.m; sourceTree = "<group>"; };
-		F76D454D1872D4110094A452 /* AlgorithmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmViewController.h; sourceTree = "<group>"; };
-		F76D454E1872D4110094A452 /* AlgorithmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmViewController.m; sourceTree = "<group>"; };
 		F76D45501872D48A0094A452 /* AlgoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgoTableViewController.h; sourceTree = "<group>"; };
 		F76D45511872D48A0094A452 /* AlgoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgoTableViewController.m; sourceTree = "<group>"; };
 		F76D45551872D5480094A452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -307,6 +292,8 @@
 		F76D46301872D5E90094A452 /* pll19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pll19.gif; sourceTree = "<group>"; };
 		F76D46311872D5E90094A452 /* pll20.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pll20.gif; sourceTree = "<group>"; };
 		F76D46321872D5E90094A452 /* pll21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pll21.gif; sourceTree = "<group>"; };
+		F76D46481872F1B80094A452 /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
+		F76D46491872F1B80094A452 /* Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Algorithm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -370,20 +357,12 @@
 				F76D451E1872D1E40094A452 /* AppDelegate.h */,
 				F76D451F1872D1E40094A452 /* AppDelegate.m */,
 				F76D45211872D1E40094A452 /* Main.storyboard */,
-				F76D45241872D1E40094A452 /* FirstViewController.h */,
-				F76D45251872D1E40094A452 /* FirstViewController.m */,
-				F76D45271872D1E40094A452 /* SecondViewController.h */,
-				F76D45281872D1E40094A452 /* SecondViewController.m */,
 				F76D452A1872D1E40094A452 /* Images.xcassets */,
 				F76D45161872D1E40094A452 /* Supporting Files */,
-				F76D45471872D3900094A452 /* F2LViewController.h */,
-				F76D45481872D3900094A452 /* F2LViewController.m */,
-				F76D454A1872D39B0094A452 /* OLLViewController.h */,
-				F76D454B1872D39B0094A452 /* OLLViewController.m */,
-				F76D454D1872D4110094A452 /* AlgorithmViewController.h */,
-				F76D454E1872D4110094A452 /* AlgorithmViewController.m */,
 				F76D45501872D48A0094A452 /* AlgoTableViewController.h */,
 				F76D45511872D48A0094A452 /* AlgoTableViewController.m */,
+				F76D46481872F1B80094A452 /* Algorithm.h */,
+				F76D46491872F1B80094A452 /* Algorithm.m */,
 			);
 			path = CFOP;
 			sourceTree = "<group>";
@@ -783,13 +762,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F76D45291872D1E40094A452 /* SecondViewController.m in Sources */,
 				F76D45201872D1E40094A452 /* AppDelegate.m in Sources */,
-				F76D454C1872D39B0094A452 /* OLLViewController.m in Sources */,
-				F76D45261872D1E40094A452 /* FirstViewController.m in Sources */,
-				F76D45491872D3900094A452 /* F2LViewController.m in Sources */,
-				F76D454F1872D4110094A452 /* AlgorithmViewController.m in Sources */,
 				F76D45521872D48A0094A452 /* AlgoTableViewController.m in Sources */,
+				F76D464A1872F1B80094A452 /* Algorithm.m in Sources */,
 				F76D451C1872D1E40094A452 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -824,7 +799,6 @@
 		F76D45211872D1E40094A452 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F76D45221872D1E40094A452 /* Base */,
 				F76D45551872D5480094A452 /* en */,
 			);
 			name = Main.storyboard;
@@ -1002,6 +976,7 @@
 				F76D45431872D1E40094A452 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F76D45441872D1E40094A452 /* Build configuration list for PBXNativeTarget "CFOPTests" */ = {
 			isa = XCConfigurationList;
@@ -1010,6 +985,7 @@
 				F76D45461872D1E40094A452 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

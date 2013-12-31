@@ -7,7 +7,7 @@
 //
 
 #import "AlgoTableViewController.h"
-
+#import "Algorithm.h"
 @interface AlgoTableViewController ()
 
 @end
@@ -26,7 +26,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    _algorithms = [NSArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",Nil];
+    Algorithm *algo = [[Algorithm alloc]initAlgorithms];
+    NSString *title = [self title];
+    if ([title isEqualToString:@"F2L"]) {
+        _algorithms = algo.f2l;
+        _type = F2L;
+    }else if([title isEqualToString:@"OLL"]){
+        _algorithms = algo.oll;
+        _type = OLL;
+    }
 
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -44,26 +55,51 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [_algorithms count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
+    static NSString *CellIdentifier = @"algo cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     // Configure the cell...
+    if (cell == nil)
+    {
+        // Create a cell to display an ingredient.
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                       reuseIdentifier:CellIdentifier];
+    }
+    
+    NSString *imgName = [self getImageNameOfRow:indexPath.row + 1];
+    [cell.imageView setImage:[UIImage imageNamed:imgName]];
+    [cell.textLabel setText:[_algorithms objectAtIndex:indexPath.row]];
     
     return cell;
+}
+
+-(NSString*)getImageNameOfRow:(int)index{
+    NSString *name;
+    switch (_type) {
+        case F2L:
+            name = [NSString stringWithFormat:@"f2l%i.gif",index];
+            break;
+        case OLL:
+            name = [NSString stringWithFormat:@"oll%i.gif",index];
+            break;
+        case PLL:
+            name = [NSString stringWithFormat:@"plll%i.gif",index];
+            break;
+        default:
+            break;
+    }
+    return name;
 }
 
 /*
