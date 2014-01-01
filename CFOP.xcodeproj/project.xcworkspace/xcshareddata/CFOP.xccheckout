@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6A95B6DE-060D-4344-B223-F059A1DDD73B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CFOP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E55657DC-6569-489E-AAD0-74803AE47BBC</key>
+		<string>https://github.com/manted/CFOP-Algorithms.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CFOP.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E55657DC-6569-489E-AAD0-74803AE47BBC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/manted/CFOP-Algorithms.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E55657DC-6569-489E-AAD0-74803AE47BBC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E55657DC-6569-489E-AAD0-74803AE47BBC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CFOP</string>
+		</dict>
+	</array>
+</dict>
+</plist>
