@@ -186,7 +186,7 @@
         <scene sceneID="Vc1-l5-nQY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M7A-yh-1yT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="F2L" id="Aer-Ce-eKp"/>
+                    <tabBarItem key="tabBarItem" title="F2L" image="tab_f2l.png" id="Aer-Ce-eKp"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="EU1-yv-cOP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -205,7 +205,7 @@
         <scene sceneID="BfS-HP-NTT">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HAN-65-kFW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="OLL" id="Hnn-tW-Yrz"/>
+                    <tabBarItem key="tabBarItem" title="OLL" image="tab_oll.png" id="Hnn-tW-Yrz"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wrS-sm-b7z">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -224,7 +224,7 @@
         <scene sceneID="bkj-Rj-ZKu">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kYw-PF-foU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="PLL" id="uu0-un-tJu"/>
+                    <tabBarItem key="tabBarItem" title="PLL" image="tab_pll.png" id="uu0-un-tJu"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tTK-6D-ggU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -240,6 +240,11 @@
             <point key="canvasLocation" x="622" y="740"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_f2l.png" width="30" height="30"/>
+        <image name="tab_oll.png" width="30" height="30"/>
+        <image name="tab_pll.png" width="30" height="30"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

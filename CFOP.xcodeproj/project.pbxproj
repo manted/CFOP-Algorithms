@@ -140,6 +140,9 @@
 		F76D46451872D5E90094A452 /* pll19.gif in Resources */ = {isa = PBXBuildFile; fileRef = F76D46301872D5E90094A452 /* pll19.gif */; };
 		F76D46461872D5E90094A452 /* pll20.gif in Resources */ = {isa = PBXBuildFile; fileRef = F76D46311872D5E90094A452 /* pll20.gif */; };
 		F76D46471872D5E90094A452 /* pll21.gif in Resources */ = {isa = PBXBuildFile; fileRef = F76D46321872D5E90094A452 /* pll21.gif */; };
+		F77099AD18745783007D1467 /* tab_oll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F77099AC18745783007D1467 /* tab_oll@2x.png */; };
+		F77099AF187457D2007D1467 /* tab_pll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F77099AE187457D2007D1467 /* tab_pll@2x.png */; };
+		F77099B118745B32007D1467 /* tab_f2l@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F77099B018745B32007D1467 /* tab_f2l@2x.png */; };
 		F78E53461873006B00ED1BED /* AlgoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78E53451873006B00ED1BED /* AlgoDetailViewController.m */; };
 		F78E534918730E7500ED1BED /* F2LAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = F78E534818730E7500ED1BED /* F2LAlgorithm.m */; };
 		F78E534C18730E8400ED1BED /* OLLAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = F78E534B18730E8400ED1BED /* OLLAlgorithm.m */; };
@@ -295,6 +298,9 @@
 		F76D46301872D5E90094A452 /* pll19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pll19.gif; sourceTree = "<group>"; };
 		F76D46311872D5E90094A452 /* pll20.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pll20.gif; sourceTree = "<group>"; };
 		F76D46321872D5E90094A452 /* pll21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pll21.gif; sourceTree = "<group>"; };
+		F77099AC18745783007D1467 /* tab_oll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_oll@2x.png"; sourceTree = "<group>"; };
+		F77099AE187457D2007D1467 /* tab_pll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_pll@2x.png"; sourceTree = "<group>"; };
+		F77099B018745B32007D1467 /* tab_f2l@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_f2l@2x.png"; sourceTree = "<group>"; };
 		F78E53441873006B00ED1BED /* AlgoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgoDetailViewController.h; sourceTree = "<group>"; };
 		F78E53451873006B00ED1BED /* AlgoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgoDetailViewController.m; sourceTree = "<group>"; };
 		F78E534718730E7500ED1BED /* F2LAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F2LAlgorithm.h; sourceTree = "<group>"; };
@@ -414,6 +420,7 @@
 		F76D45561872D57E0094A452 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				F77099A9187456D7007D1467 /* tabbar */,
 				F76D45591872D5910094A452 /* PLL */,
 				F76D45581872D58D0094A452 /* OLL */,
 				F76D45571872D5870094A452 /* F2L */,
@@ -561,6 +568,16 @@
 			name = PLL;
 			sourceTree = "<group>";
 		};
+		F77099A9187456D7007D1467 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F77099B018745B32007D1467 /* tab_f2l@2x.png */,
+				F77099AE187457D2007D1467 /* tab_pll@2x.png */,
+				F77099AC18745783007D1467 /* tab_oll@2x.png */,
+			);
+			name = tabbar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -651,6 +668,8 @@
 				F76D46061872D5D50094A452 /* oll34.gif in Resources */,
 				F76D45931872D5A90094A452 /* f2l17.gif in Resources */,
 				F76D45911872D5A90094A452 /* f2l15.gif in Resources */,
+				F77099AD18745783007D1467 /* tab_oll@2x.png in Resources */,
+				F77099B118745B32007D1467 /* tab_f2l@2x.png in Resources */,
 				F76D45EE1872D5D50094A452 /* oll10.gif in Resources */,
 				F76D458E1872D5A90094A452 /* f2l12.gif in Resources */,
 				F76D461A1872D5D50094A452 /* oll54.gif in Resources */,
@@ -693,6 +712,7 @@
 				F76D46111872D5D50094A452 /* oll45.gif in Resources */,
 				F76D46431872D5E90094A452 /* pll17.gif in Resources */,
 				F76D45E71872D5D50094A452 /* oll3.gif in Resources */,
+				F77099AF187457D2007D1467 /* tab_pll@2x.png in Resources */,
 				F76D460A1872D5D50094A452 /* oll38.gif in Resources */,
 				F76D46411872D5E90094A452 /* pll15.gif in Resources */,
 				F76D45A21872D5A90094A452 /* f2l32.gif in Resources */,
