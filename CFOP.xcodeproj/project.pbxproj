@@ -625,6 +625,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ye Hua";
 				TargetAttributes = {
+					F76D450B1872D1E40094A452 = {
+						DevelopmentTeam = R6A4T276PC;
+					};
 					F76D452F1872D1E40094A452 = {
 						TestTargetID = F76D450B1872D1E40094A452;
 					};
@@ -928,13 +931,17 @@
 		F76D45421872D1E40094A452 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ye Hua (R6A4T276PC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CFOP/CFOP-Prefix.pch";
 				INFOPLIST_FILE = "CFOP/CFOP-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -942,13 +949,17 @@
 		F76D45431872D1E40094A452 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ye Hua (R6A4T276PC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CFOP/CFOP-Prefix.pch";
 				INFOPLIST_FILE = "CFOP/CFOP-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

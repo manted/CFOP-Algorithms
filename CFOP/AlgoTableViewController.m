@@ -85,7 +85,7 @@
                                        reuseIdentifier:CellIdentifier];
     }
     
-    NSString *imgName = [self getImageNameOfRow:indexPath.row + 1];
+    NSString *imgName = [self getImageNameOfRow:(int)(indexPath.row + 1)];
     [cell.imageView setImage:[UIImage imageNamed:imgName]];
     [cell.textLabel setNumberOfLines:2];
     [cell.textLabel setText:[_algorithms objectAtIndex:indexPath.row]];
