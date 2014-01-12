@@ -27,14 +27,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-//    [self.view addGestureRecognizer:[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tap)]];
+    
+    [_imageView setFrame:CGRectMake(85, 110, 150, 150)];
     _imageView.image = _image;
+    
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
+        [_label setFrame:CGRectMake(40, 110 + 150 - 60, 240, 200)];
+    }else{
+        [_label setFrame:CGRectMake(40, 110 + 150 - 80, 240, 200)];
+    }
     _label.text = _algorithmString;
 }
-
-//-(void)tap{
-//    [self dismissModalViewControllerAnimated:YES];
-//}
 
 - (void)didReceiveMemoryWarning
 {
